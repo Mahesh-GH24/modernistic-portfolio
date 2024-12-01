@@ -12,7 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Error from './pages/Error.jsx';
-import Home from './pages/Home';
+//import Home from './pages/Home';
 import Portfolio from './pages/Portfolio.jsx';
 import Resume from './pages/Resume.jsx';
 
@@ -23,12 +23,12 @@ const router = createBrowserRouter([
     element: <App />,
     errorElement: <Error />,
     children: [
+      // {
+      //   index: true,
+      //   element: <Home />,
+      // },
       {
         index: true,
-        element: <Home />,
-      },
-      {
-        path: '/About',
         element: <About />,
       },
       {
