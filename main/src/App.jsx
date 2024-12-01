@@ -1,7 +1,7 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+//import { useState } from 'react'
+//import reactLogo from './assets/react.svg'
+//import viteLogo from '/vite.svg'
+//import './App.css'
 
 // Bringing in the required import from 'react-router-dom'
 import { Outlet } from 'react-router-dom';
@@ -18,6 +18,7 @@ function App() {
       <main className="mx-3">
         <Outlet />
       </main>
+      
     </>
   )
 }
