@@ -1,0 +1,18 @@
+h1 {
+    font-size: 200%;
+    background-color: #13293d;
+    
+   }
+
+ul {
+  display: flex;
+  min-width: 300px;
+  color: #fff;
+    
+}
+
+nav-item {
+    color: #b9C6ae;
+    font-weight: bold;
+    text-decoration: none;
+  }

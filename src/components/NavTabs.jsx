@@ -1,4 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
+import '../assets/index.css'
 
 // object destructuring assignment to get the variables from the props object
 // We assign them to their own variable names
@@ -7,6 +8,8 @@ function NavTabs() {
 
   return (
     <ul className="nav nav-tabs">
+      <h1>Mahesh S Gunasekaran</h1>
+      
       <li className="nav-item">
         <Link
           to="/"
@@ -17,17 +20,6 @@ function NavTabs() {
           About
         </Link>
       </li>
-      {/* 
-      <li className="nav-item">
-        <Link
-          to="/About"
-          // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === '/About' ? 'nav-link active' : 'nav-link'}
-        >
-          About
-        </Link>
-      </li>
-      */}
       <li className="nav-item">
         <Link
           to="/Contact"
