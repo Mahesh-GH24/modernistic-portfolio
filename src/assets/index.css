@@ -1,8 +1,18 @@
+div {
+    background-color: #13293d;
+    color: #fff;
+    }
+
 h1 {
     font-size: 200%;
     background-color: #13293d;
     
    }
+
+  h3 {
+    color: #fff;
+    }
+
 
 ul {
   display: flex;
