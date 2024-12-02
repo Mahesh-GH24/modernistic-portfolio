@@ -2,7 +2,7 @@ export default function About() {
     return (
       <div>
         <h3>About Me</h3>
-        <img src="./assets/images/Mag.jpg" alt="Mag picture" width="500" height="600"></img>
+        <img src="./assets/images/Mag.jpg" alt="Mag picture" width="50" height="50"></img>
         <p>
           My name is Mahesh S Gunasekaran I am a skilled software professional with a passion for designing and building efficient,
           user-focused solutions. With a strong foundation in programming and a keen eye for detail, I specialize in creating robust
