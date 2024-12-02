@@ -26,3 +26,14 @@ nav-item {
     font-weight: bold;
     text-decoration: none;
   }
+
+  /* Sets display of all elements with class selector to inline */
+.display-inline {
+  display: inline;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
