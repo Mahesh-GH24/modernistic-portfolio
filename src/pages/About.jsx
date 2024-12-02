@@ -1,14 +1,13 @@
 export default function About() {
     return (
       <div>
-        <h1>About Page</h1>
+        <h3>About Me</h3>
+        <img src="./assets/images/Mag.jpg" alt="Mag picture" width="500" height="600"></img>
         <p>
-          Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-          Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-          mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-          lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-          imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-          in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+          My name is Mahesh S Gunasekaran I am a skilled software professional with a passion for designing and building efficient,
+          user-focused solutions. With a strong foundation in programming and a keen eye for detail, I specialize in creating robust
+          web applications and solving complex technical challenges. Besides programming, Iam also proficient in Project Management.
+          Collaboration, innovation, and continuous learning drive my work, ensuring I stay ahead in the ever-evolving tech landscape.
         </p>
       </div>
     );
