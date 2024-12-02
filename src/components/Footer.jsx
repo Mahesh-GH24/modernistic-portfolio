@@ -1,17 +1,19 @@
 function Footer() {
     return (
         <footer>
-            <nav>
-                <ul>
-                    <li class="display-inline">000-111-2222</li>
-                    <li class="display-inline">
-                        <a href="mailto:Mahesh@TestEmail.com">Mahesh@TestEmail.com</a>
+            <nav className="container text-center">
+                <ul className="row">
+                    <li className="col">
+                        000-111-2222
                     </li>
-                    <li class="display-inline">
-                        <a href="http://github.com/Mahesh-GH24">github.com/Mahesh-GH24</a>
+                    <li className="col">
+                        Mahesh@TestEmail.com
                     </li>
-                </ul>   
-            </nav>                  
+                    <li className="col">
+                         github.com/Mahesh-GH24
+                    </li>
+                </ul>
+            </nav>
         </footer>
     );
 }

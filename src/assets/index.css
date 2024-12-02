@@ -1,3 +1,17 @@
+body{
+  min-height: 100vh !important;
+  background-color: #13293d !important;
+}
+
+html{
+  min-height: 100vh !important;
+  background: #13293d;
+}
+
+main{
+  height: 65vh;
+}
+
 div {
     background-color: #13293d;
     color: #fff;
@@ -32,11 +46,11 @@ nav-item {
   display: inline;
 }
 
-nav {
+/* nav {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-}
+} */
 
 .projects {
   flex: 4;

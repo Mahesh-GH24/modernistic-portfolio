@@ -1,9 +1,15 @@
+import { Link } from 'react-router-dom';
+
 function Project() {
     return (
         <div className="projects">
             <section className="card">
                 <header>Awesome Weather</header>
-                <img src="./assets/images/camera.jpg" alt="Project Image" />
+                <Link
+                to ="https://www.google.com/"
+                >
+                <img src="/images/camera.jpg" alt="Project Image" />
+                </Link>
                 <p>Application URL    : https://awesome-weather.onrender.com</p>
                 <p>GitHub URL         : https://github.com/Mahesh-GH24/awesome-weather</p>
              </section>
