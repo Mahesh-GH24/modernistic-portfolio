@@ -27,13 +27,13 @@ h1 {
     color: #fff;
     }
 
-
+/* 
 ul {
   display: flex;
   min-width: 300px;
   color: #fff;
     
-}
+} */
 
 nav-item {
     color: #b9C6ae;
@@ -78,4 +78,9 @@ header {
   text-align: center;
   background: #13293d;
   color: #fff;
+}
+
+.card img {
+  width: 100%;
+  min-width: 300px;
 }

@@ -22,6 +22,7 @@ export default function Resume() {
           <li>Node JS</li>
           <li>Postgres</li>
         </ul>
+        
         <p>
           Download My <a href="Resume.docx" download> Resume</a>
         </p>
