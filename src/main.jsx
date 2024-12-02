@@ -1,6 +1,6 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-//import './index.css'
+
+import './index.css'
+
 import App from './App.jsx'
 
 //Additional imports
@@ -9,8 +9,8 @@ import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-import About from './pages/About';
-import Contact from './pages/Contact';
+import About from './pages/About.jsx';
+import Contact from './pages/Contact.jsx';
 import Error from './pages/Error.jsx';
 //import Home from './pages/Home';
 import Portfolio from './pages/Portfolio.jsx';
@@ -47,12 +47,6 @@ const router = createBrowserRouter([
   },
 ]);
 
-
-// ReactDOM.createRoot(document.getElementById('root')).render(
-//   <StrictMode>
-//     <App />
-//   </StrictMode>,
-// )
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <RouterProvider router={router} />
