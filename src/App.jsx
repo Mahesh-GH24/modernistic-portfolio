@@ -5,6 +5,8 @@
 
 // Bringing in the required import from 'react-router-dom'
 import { Outlet } from 'react-router-dom';
+//import { IconName } from "react-icons/";
+
 import Header from './components/Header';
 import Footer from './components/Footer';
 

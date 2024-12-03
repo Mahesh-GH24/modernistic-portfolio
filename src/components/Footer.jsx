@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Footer() {
     return (
         <footer>
@@ -10,7 +12,19 @@ function Footer() {
                         Mahesh@TestEmail.com
                     </li>
                     <li className="col">
-                         github.com/Mahesh-GH24
+                        <Link
+                        to ="http://linkedin.com/in/mahesh-gunasekaran-1245a941"
+                        >
+                        LinkedIn
+                        </Link>
+                    </li>
+                    
+                    <li className="col">
+                        <Link
+                        to ="http://github.com/Mahesh-GH24"
+                        >
+                        GitHub
+                        </Link>
                     </li>
                 </ul>
             </nav>
