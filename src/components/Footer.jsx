@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 
 function Footer() {
     return (
-        <footer>
+        <footer class="mt-5">
             <nav className="container text-center">
                 <ul className="row">
-                    <li className="col">
+                    <li className="col" >
                         000-111-2222
                     </li>
                     <li className="col">
