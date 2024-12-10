@@ -32,12 +32,19 @@
    used several times. The final section is the Resume where I had listed down the skills along with a sample resume!
 
    
-   Screenshot:
+   **Screenshots**:
 
-   ![index](/dist/images/about.jpg)
-   ![index](/dist/images/contact.jpg)
-   ![index](/dist/images/portfolio.jpg)
-   ![index](/dist/images/resume.jpg)
+   **About Page**
+   ![index](/src/assets/images/about.jpg)
+
+   **Contact Page**
+   ![index](/src/assets/images/contact.jpg)
+
+   **Portfolio Page**
+   ![index](/src/assets/images/portfolio.jpg)
+
+   **Resume Page**
+   ![index](/src/assets/images/resume.jpg)
    
    
 
